@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    width: 180px;
+    height: 0px;
+    padding: 8px;
+    background-color: black;
+    
+  }
+  .box1 {
+    float: none;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    background-color: black;
+  }
+  
+  .box2 {
+  float: left;
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  margin: 1%;
+  }
+  
+  .box3 {
+  float: left;
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  margin: 1%;
+  }
