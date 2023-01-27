@@ -1,37 +1,44 @@
-ul {
-    list-style-type: none;
-    margin: 1%;
-    padding: 0;
-    overflow: hidden;
+*{
+    padding:0;
+    margin:0;
   }
-  
-  li {
-    width: 180px;
-    height: 0px;
-    padding: 8px;
-    background-color: black;
-    
+  .container{
+    margin-top: 20px;
+    width:500px;
+    height:50px;
+  }
+  .block0 {
+      float:left;
+      height:20px;
+      width:100px;
+      background-color:black;
+  }
+  .block1, .block2, .block3{
+      background-color: black;
+      float:right;
+      height:20px;
+      width:50px;
+      margin-left: 5px;
   }
   .box1 {
-    float: none;
     width: 500px;
     height: 200px;
-    padding: 50px;
     background-color: black;
   }
-  
+  #container2{
+    margin-top: 20px;
+    width:500px;
+  }
   .box2 {
   float: left;
-  width: 300px;
+  width: 240px;
   height: 150px;
   background-color: black;
-  margin: 1%;
   }
   
   .box3 {
-  float: left;
-  width: 300px;
+  float: right;
+  width: 240px;
   height: 150px;
   background-color: black;
-  margin: 1%;
   }
