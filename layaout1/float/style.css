@@ -1,6 +1,8 @@
+
   .container {
     background-color: black;
-    float: inline-start;  
+    margin: 1%;
+
   }
   .box1 {
     float: none;
@@ -23,5 +25,5 @@
   width: 300px;
   height: 150px;
   background-color: black;
-  margin: 1%;
+  margin: 1%
   }
