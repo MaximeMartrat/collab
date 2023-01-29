@@ -1,0 +1,52 @@
+.maNav1 {
+    float: left;
+    height: 100%;
+    width: 100%;
+    clear: both;
+  }
+  
+  .ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: black;
+    clear: left;
+  }
+  
+  .maNav2,
+  .maNav3,
+  .maNav4 {
+    float: left;
+    height: 10%;
+    width: 10%;
+    background-color: black;
+    margin-right: 2%;
+    margin: 2%
+  }
+  
+  .ul2,
+  .ul3,
+  .ul4 {
+    margin: 2%;
+    padding: 0;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    font-size: 20%;
+  }
+
+  .circle {
+    width:  250px;
+    height: 250px;
+    border-radius: 80%;
+    text-align: center;
+    background-color: black;
+    float: left;
+  }
+  
