@@ -1,67 +1,63 @@
-body{
-    padding: 0%;
-    margin: 3%;
+body {
+  padding: 0%;
+  margin: 3%;
 }
 
-.nav{
-    background-color: black;
-    width: 20%;
-    padding-top: 1% ;
-    margin: 1%;
-    margin-left: 0%;
-
+.nav {
+  background-color: black;
+  width: 20%;
+  padding-top: 1%;
+  margin: 1%;
+  margin-left: 0%;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10%;
-    width: 50%;
-    
-   
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10%;
+  width: 50%;
 }
 .one {
-    grid-column: 1;
-    grid-row: 1;
-    background-color: black;
-  }
-
-  .two {
-    grid-column: 2 ;
-    grid-row: 1 ;
-    background-color: black;
-  }
-
-  .three {
-    grid-column: 3;
-    grid-row: 1;
-    background-color: black;
-  }
-
-  .four {
-    grid-column: 4;
-    grid-row: 1;
-    background-color: black;
-  }
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5%;
-    width: 80%;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: black;
 }
 
-.zone{
-    grid-column: 1;
-    grid-row: 1;
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: black;
 }
 
-  .circle{
-    background-color: black;
-    grid-column: 2 / 3 ;
-    grid-row: 1;
-    width: 70%;
-    height: 100vh;
-    border-radius: 60%;
-  }
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: black;
+}
 
+.four {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  width: 80%;
+}
+
+.zone {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.circle {
+  background-color: black;
+  grid-column: 2 / 3;
+  grid-row: 1;
+  width: 70%;
+  height: 100vh;
+  border-radius: 60%;
+}
