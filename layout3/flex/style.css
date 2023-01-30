@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ /* barre de nav du haut  */
+
+.total {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+
+li.relou{
+    width: 5%;
+    height: 5vh;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+li.relou1{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.container {
+  display: flex;
+  height: 10%;
+}
+
+#container {
+  height: 100%;
+}
+/* barre de nav top body */
+#nav {
+  display: flex;
+  height: 20%;
+}
+
+.one {
+  background-color: black;
+  width: 94%;
+  height: 50vh;
+  margin: 1%;
+}
+
+/* barre de nav debut du body*/
+
+.centre {
+  /* background-color: black; */
+}
+
+li {
+  background-color: black;
+  width: 10%;
+ 
+}
+
+.containerhome {
+  display: flex;
+  padding: 0%;
+}
+
+.container1 {
+  background-color: black;
+  width: 60%;
+  margin: 1%;
+}
+
+.container2 {
+  background-color: black;
+  width: 15%;
+  margin: 1%;
+}
+
+.container3 {
+  background-color: black;
+  margin: 1%;
+  width: 15%;
+  height: 50vh;
+}
+
+/* two container principal */
+
+.containerhome1 {
+  display: flex;
+  padding: 0%;
+}
+
+.container4 {
+  background-color: black;
+  width: 60%;
+  margin: 1%;
+}
+
+.container5 {
+  background-color: black;
+  width: 15%;
+  margin: 1%;
+}
+
+.container6 {
+  background-color: black;
+  margin: 1%;
+  width: 15%;
+  height: 50vh;
+}
