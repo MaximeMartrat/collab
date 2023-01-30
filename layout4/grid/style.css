@@ -59,8 +59,8 @@ h1{
 }
 
 p{
-  margin : 5%
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin : 5% ;
+  font : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .circle {
