@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  .container{
+    margin-top: 20px;
+    width:500px;
+    height:50px;
+  }
+  .block0 {
+      float:left;
+      height:20px;
+      width:100px;
+      background-color:black;
+  }
+  .block1, .block2, .block3{
+      background-color: black;
+      float:right;
+      height:20px;
+      width:50px;
+      margin-left: 5px;
+  }
+  .box1 {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+  }
+  #container2{
+    margin-top: 20px;
+    width:500px;
+  }
+  .box2 {
+  float: left;
+  width: 240px;
+  height: 150px;
+  background-color: black;
+  }
+  
+  .box3 {
+  float: right;
+  width: 240px;
+  height: 150px;
+  background-color: black;
+  }
